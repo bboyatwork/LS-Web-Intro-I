@@ -1,0 +1,38 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+  background: blue;
+
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background: red;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: green;
+  z-index: 1;
+}
+
+.side{
+  width: 150px;
+  height: 100%;
+  background-color: yellow;
+  position: fixed;
+  z-index: 100;
+  display: block;
+}
+
+.right {
+  position: fixed;
+  right: 0;
+}

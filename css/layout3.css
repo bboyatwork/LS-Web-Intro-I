@@ -1,0 +1,58 @@
+* {
+margin: 0;
+padding: 0;
+display: block;
+}
+
+
+header {
+  height: 100px;
+  width: 100%;
+  background: purple;
+  z-index: 100;
+}
+
+.col{
+  width: 66.6666%;
+  height: 100%;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  background-color: red;
+  z-index: 1;
+
+  
+}
+.centerbox {
+  width: 40%;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+  margin-bottom: 40px;
+  top: 50px;
+  left: 30%;
+  right: 30%;
+  z-index: 1000;
+}
+
+.inner-left {
+  background-color: yellow;
+  width: 35%;
+  height: 40%;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  z-index: 1100;
+}
+
+
+.inner-right {
+  background-color: green;  
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  z-index: 1100;
+
+}
