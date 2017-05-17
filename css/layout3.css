@@ -4,6 +4,10 @@ padding: 0;
 display: block;
 }
 
+html, 
+body {
+    height: 100%;
+}
 
 header {
   height: 100px;
